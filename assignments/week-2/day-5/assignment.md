@@ -7,5 +7,3 @@
     3. The bottom one is for placing ads.
 2. You can use sizes, colors, font, etc according to your choice.
 3. Put your files inside a `WebMail` folder under `assignments`.
-
-[Solution](solutions/css-web-mail/)
