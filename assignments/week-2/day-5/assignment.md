@@ -1,5 +1,5 @@
 #### Create a webmail page:
-![my mail page](../images/mymail.png)
+![my mail page](../../../images/mymail.png)
 
 1. Create a webmail page which has three sections:
     1. The left one is for navigation and contains links for Inbox, Sent, Drafts & Trash. You can use an un-ordered list to do that.
