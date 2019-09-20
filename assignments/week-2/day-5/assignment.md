@@ -6,4 +6,4 @@
     2. The right box is a table of emails with coloumns for From, Subject & Date.
     3. The bottom one is for placing ads.
 2. You can use sizes, colors, font, etc according to your choice.
-3. Put your files inside a `WebMail` folder under `assignments`.
+3. Create a directory `WebMail` in `assignments/week02/day5` directory. Put your files folder under `WebMail` folder.
