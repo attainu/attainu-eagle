@@ -16,3 +16,5 @@ var players = [
 { name: "Arthur Ashe", rank: 8 },
 ];
 ```
+
+Write a `for` loop that only prints players with rank less than or equal to 10.
