@@ -1,4 +1,4 @@
-#### Create a Quiz application in jQuery
+## Create a Quiz application in jQuery
 
 ![quiz](../../../images/quiz.png)
 
