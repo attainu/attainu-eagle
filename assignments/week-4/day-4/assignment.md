@@ -1,8 +1,6 @@
-#### Rewrite the Quiz application in jQuery
+#### Create a Quiz application in jQuery
 
-We have created this application using vanilla Javascript before. Now move all the DOM manipulation methods and AJAX code to jQuery.
-
-The original description of the assignment - 
+Scope of Work (Requirements)- 
 
 ![quiz](../../../images/quiz.png)
 1. The application should load a random question from the [quiz.json](quiz.json) file. Hint - You can use `var randomNumber = Math.floor( Math.random() * 10 )` to get a random number which can be used as an index for the question array.
