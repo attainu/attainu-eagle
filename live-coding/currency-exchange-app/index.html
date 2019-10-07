@@ -1,1 +1,97 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Currency Exchange App</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<div class="container">
+		<div id="exchange-container">
+			<h1>Currency Exchange App</h1>
+			<select class="currency-one">
+				<option value="CAD">CAD</option>
+				<option value="HKD">HKD</option>
+				<option value="ISK">ISK</option>
+				<option value="PHP">PHP</option>
+				<option value="DKK">DKK</option>
+				<option value="HUF">HUF</option>
+				<option value="CZK">CZK</option>
+				<option value="AUD">AUD</option>
+				<option value="RON">RON</option>
+				<option value="SEK">SEK</option>
+				<option value="IDR">IDR</option>
+				<option value="INR">INR</option>
+				<option value="BRL">BRL</option>
+				<option value="RUB">RUB</option>
+				<option value="HRK">HRK</option>
+				<option value="JPY">JPY</option>
+				<option value="THB">THB</option>
+				<option value="CHF">CHF</option>
+				<option value="SGD">SGD</option>
+				<option value="PLN">PLN</option>
+				<option value="BGN">BGN</option>
+				<option value="TRY">TRY</option>
+				<option value="CNY">CNY</option>
+				<option value="NOK">NOK</option>
+				<option value="NZD">NZD</option>
+				<option value="ZAR">ZAR</option>
+				<option value="USD">USD</option>
+				<option value="MXN">MXN</option>
+				<option value="ILS">ILS</option>
+				<option value="GBP">GBP</option>
+				<option value="KRW">KRW</option>
+				<option value="MYR">MYR</option>
+			</select>
+			<select class="currency-two">
+				<option value="CAD">CAD</option>
+				<option value="HKD">HKD</option>
+				<option value="ISK">ISK</option>
+				<option value="PHP">PHP</option>
+				<option value="DKK">DKK</option>
+				<option value="HUF">HUF</option>
+				<option value="CZK">CZK</option>
+				<option value="AUD">AUD</option>
+				<option value="RON">RON</option>
+				<option value="SEK">SEK</option>
+				<option value="IDR">IDR</option>
+				<option value="INR">INR</option>
+				<option value="BRL">BRL</option>
+				<option value="RUB">RUB</option>
+				<option value="HRK">HRK</option>
+				<option value="JPY">JPY</option>
+				<option value="THB">THB</option>
+				<option value="CHF">CHF</option>
+				<option value="SGD">SGD</option>
+				<option value="PLN">PLN</option>
+				<option value="BGN">BGN</option>
+				<option value="TRY">TRY</option>
+				<option value="CNY">CNY</option>
+				<option value="NOK">NOK</option>
+				<option value="NZD">NZD</option>
+				<option value="ZAR">ZAR</option>
+				<option value="USD">USD</option>
+				<option value="MXN">MXN</option>
+				<option value="ILS">ILS</option>
+				<option value="GBP">GBP</option>
+				<option value="KRW">KRW</option>
+				<option value="MYR">MYR</option>
+			</select>
+			<button class="btn btn-success" id="convert-currency-btn">Convert</button>
+		</div>
+		<div id="result">
+			<h2>Result</h2>
+			<span>1</span>
+			<span id="cr-one-symbol"></span>
+			<span class=eq-tag>=</span>
+			<span id="cr-two-count"></span>
+			<span id="cr-two-symbol"></span>
+		</div>
+	</div>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
