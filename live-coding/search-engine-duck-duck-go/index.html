@@ -1,1 +1,35 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eagle Search Engine</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-5 app-title">
+			<h1>Eagle Search Engine</h1>
+		</div>
+		<div class="row">
+			<div class="search-input-wrapper col-md-6">
+				<input type="text" name="search-query" id="search-query" class="form-control">
+			</div>
+			<div class="col-md-1">
+				<button id="process-search" class="btn btn-success">Search</button>
+			</div>
+		</div>
+		<div class="row search-result">
+			<h2>Search Result</h2>
+			<div class="search-result-wrapper col-md-7">
+				<ul id="search-result-data"></ul>
+			</div>
+		</div>
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="search.js"></script>
+</body>
+</html>
