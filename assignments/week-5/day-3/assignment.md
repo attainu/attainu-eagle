@@ -1,6 +1,6 @@
 ## Gaitonde Bhau App
 
- 1. Create a bootstrap `container` and append every element inside it.
+ 1. Create a bootstrap `container` and append every element inside it (Max width: 60% of the viewport).
  2. Give a *savage* title to your app
  3. Render your favourite (or popular) image of the great great Ganesh Gaitonde as the first thing
  4. Embed the following *audio* file in your app which should be played on *loop*, because why not?! The music is mind-blowing <3 - [Audio File URL](https://www.retones.com/files/uploads/Sacred-Games-Theme-Opening-Main.mp3) 
