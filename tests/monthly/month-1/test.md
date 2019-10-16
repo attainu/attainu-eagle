@@ -1,6 +1,6 @@
 # Monthly Test - 1
 
-![enter image description here](/tests/monthly/month-l/Screenshot 2019-10-16 at 2.51.10 PM.png)
+![enter image description here](/tests/monthly/month-l/image.png)
 
 1. Fetch data (App name, Header values, User list) from [data.json](data.json) file
 2. App Name, Header values, User list should be rendered dynamically
