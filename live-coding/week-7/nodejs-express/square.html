@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculate Square</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<h1>Calculate Square</h1>
+		<form onsubmit="return false;" class="form-group" id="square-form">
+			<input type="text" name="number-1" id="number-1" class="form-control" placeholder="Enter a number">
+			<input type="submit" class="btn btn-success" name="submit" value="Calculate Square">
+		</form>
+	</div>
+  <img src="/static/game-of-thrones.jpeg">
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  	$(document).ready(function() {
+  		console.log("App is ready!");
+
+  		$('#square-form').on('submit', function() {
+  			var number1 = $('#number-1').val();
+
+  			$.ajax({
+  				method: "POST",
+  				url: "/calculate-square",
+  				data: {
+  					"number-1": number1
+  				},
+          dataType: 'json',
+  				success: function(data) {
+            alert("Result >>> "+ data.square);
+  				},
+  				error: function() {
+
+  				}
+  			});
+  		});
+  	});
+  </script>
+</body>
+</html>

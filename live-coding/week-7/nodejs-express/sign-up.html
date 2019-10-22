@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up Form </title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<h1>Sign Up</h1>
+		<form onsubmit="return false;" class="form-group" id="sign-up-form">
+			<input type="text" name="username" id="username" class="form-control" placeholder="Username">
+			<input type="password" name="password" id="password" class="form-control" placeholder="Password">		
+			<input type="submit" class="btn btn-success" name="submit" value="Submit">
+		</form>
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  	$(document).ready(function() {
+  		console.log("App is ready!");
+
+  		$('#sign-up-form').on('submit', function() {
+  			var username = $('#username').val();
+  			var password = $('#password').val();
+
+  			console.log(username, password);
+
+  			$.ajax({
+  				method: "POST",
+  				url: "/sign-up",
+  				data: {
+  					username: username,
+  					pass: password
+  				},
+  				success: function() {
+
+  				},
+  				error: function() {
+
+  				}
+  			});
+  		});
+  	});
+  </script>
+</body>
+</html>
