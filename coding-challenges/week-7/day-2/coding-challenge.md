@@ -3,7 +3,8 @@
  - Create a server with `express` framework/package
  - Add a **GET** route which will return matching names from an array
  
-Sample array: `["Ananya", "Anamika", "Nisha", "Nishant", "Nishank", "Ansal", "Gopi", "Arkesh"]`
+Sample array: 
+`["Ananya", "Anamika", "Nisha", "Nishant", "Nishank", "Ansal", "Gopi", "Arkesh"]`
 Input: `Nis`
 Output: `["Nisha", "Nishant"]`
 
