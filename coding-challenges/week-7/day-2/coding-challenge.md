@@ -7,6 +7,7 @@ Sample array:
 `["Ananya", "Anamika", "Nisha", "Nishant", "Nishank", "Ansal", "Gopi", "Arkesh"]`
 
 Input: `Nis`
+
 Output: `["Nisha", "Nishant"]`
 
 **Note**: 
