@@ -5,7 +5,7 @@ Link: [Application Boilerplate](https://github.com/attainu/attainu-eagle/tree/ma
  - Add *get*, *update*, *delete* routes with appropriate HTTP method
  - Add/extend controller methods to handle the incoming requests
  - Forward the request from controller to model, wherever necessary
- - In create, update, delete routes, return an object like following:
+ - In create, update, delete methods of the model, return an object like following instead of a string (be it error or success):
 
 ```
 {
