@@ -12,3 +12,4 @@
 
 Note: 
 1. To bind event listener to dynamically added element: Use: `$('body').on('click', '<elem-selector | class or ID>', function() ...`
+2. Add `node_modules` directory to `.gitignore` file
