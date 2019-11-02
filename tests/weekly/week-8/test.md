@@ -4,10 +4,12 @@
  2. The structure of application should be in MVC architecture
  3. Create a route `/upload-files` to handle Image & PDF file uploads
  4. On successful upload of each file, the following data should be stored as an object in an (storage)  array: 
+
 `{ 
 	filePath: "<ROOT-URL>/public/<FILE-NAME>"
 	mimeType: <FILE-MIME-TYPE>
 }`
+
 5. Create a route `/get-files` and return the array which holds data of all uploaded files
 
 Note: 
