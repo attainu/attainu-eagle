@@ -1,6 +1,6 @@
 # Weekly Test - 3 
 
- 1. Create a node.js server with no view engine i.e. No UI (REST)
+ 1. Create a node.js server with no view engine i.e. No UI (REST only)
  2. The structure of application should be in MVC architecture
  3. Create a route `/upload-files` to handle Image & PDF file uploads
  4. On successful upload of each file, the following data should be stored as an object in an (storage)  array: 
