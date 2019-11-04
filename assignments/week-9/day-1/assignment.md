@@ -4,6 +4,7 @@
 2. Create a *protected endpoint* `/book/create` to allow book creation only by logged-in users
 3. Create endpoints `/login` & `logout` to log-in & log-out the user, respectively
 4. Add an application level middleware (with an exception to `/login` route) which will check for user session on each request, and will return relevant error if the user is not logged-in
+5. Clear the cookie when the user logs out (Search for the function which does this job)
 
 Note: 
 - Write all business logic in Models.
