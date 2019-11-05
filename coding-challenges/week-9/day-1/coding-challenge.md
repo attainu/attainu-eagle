@@ -4,7 +4,7 @@ Create a Javascript application that lets the user search for books under a part
 
 ![book library](book-library.png)
 
-Create a NodeJS script to search data from this JSON object [books.json](books.json).
+Create a NodeJS script to search data from this JSON object [data.json](data.json).
 
 Search the books in the Express routes and render the data using Handlebars.
 
