@@ -1,4 +1,4 @@
-# Module Test - Express App w/ CRUD functionality
+# Flamingo Lateral Entry Test
 
  - Create a form with the below details 
 	 - Name (validations): 
