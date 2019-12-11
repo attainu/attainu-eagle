@@ -14,4 +14,5 @@ Note:
 4. Create a file `honor-of-code.txt` and paste the below content in it. Please make sure you read the same before pasting it.
 
 *I will not give or receive aid in examinations; I will not give or receive unpermitted aid in class work, in the preparation of reports, or in any other work that is to be used by the instructor as the basis of grading;
+
  I will do my share and take an active part in seeing to it that others as well as themselves uphold the spirit and letter of the Honor Code.*
