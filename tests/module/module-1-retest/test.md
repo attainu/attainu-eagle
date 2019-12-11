@@ -2,8 +2,8 @@
 1. Create an express app
 2. Setup MongoDB connection 
 3. Create routes with GET, POST, PUT, DELETE HTTP methods ONLY on `/employees` route to retrieve or add or manipulate or delete data (use placeholders wherever required)
-		- **GET** `/employees ` should retrieve all users
-		- **GET** `/employees/:id` should retrieve a specific employee
+	- **GET** `/employees ` should retrieve all users
+	- **GET** `/employees/:id` should retrieve a specific employee
 4. Create UI in handlebars 
 5. Use Bootstrap for styling
 
