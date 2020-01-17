@@ -1,4 +1,4 @@
-Find the time complexity of following operation in javascript.
+Find the time complexity of following operation in javascript. Show them using examples and explain their complexity.
 
 indexOf
 
@@ -11,5 +11,7 @@ shift
 splice
 
 concat
+
+
 
 
