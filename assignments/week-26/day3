@@ -36,3 +36,4 @@ Write queries to find
 4. Get all the entries from both the tables
 5. Get all the entries from the singers table which are not present in the songs (rows exclusive to singers table)
 6. Get all the entries from the songs table which are not present in the singers (rows exclusive to songs table)
+7. Get all the unique entries from both the tables (uncommon data)
