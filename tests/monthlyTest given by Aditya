@@ -1,0 +1,64 @@
+1  CRUD 
+	Fields for new user
+Name
+Email
+Username
+
+Have to show all the field ie name, email, username
+
+You have to implement it using backend as full stack project ( Its mandatory )
+
+https://docs.google.com/document/d/1f35oJ1_eoJddSBjp1Z6QAsyL0hP2g4SbySvz2CVfMeg/edit
+
+
+Test - Aditya 
+
+
+Problem Statement -
+Create an application where 
+You can add a shop with its name, the area of the shop in the city, the category of the shop, the opening and closing date of the shop
+You can see the list of all the shops
+You can filter the list of shops based on the area, the category, the open/close status(this should be decided by taking the current date and seeing if its lying between the opening and closing date of the shop)
+Areas -
+Jayanagar.
+Basavanagudi.
+JP Nagar.
+Padmanabhanagar.
+Banashankari.
+Uttarahalli.
+Kumaraswamy.
+Girinagar.
+Shops Category -
+Grocery
+Butcher
+Baker
+Chemist
+Stationery shop
+Hardware shop
+Flower
+Newsagent
+Furniture
+Approach -
+Planning
+1. Think of all the components you will have to create
+2. Which component will be child or parent of which component, component tree structure
+3. What will be all the data the application will need to hold
+4. Which component will need which data
+5. Which all actions will you need to make changes to the redux state and from which component should the action be generated
+Building
+1. Create the components with the UI
+2. Create the redux state, store, and expose it to the react app
+3. Which ever component needs whatever data, connect that component to the redux store and get that data as props
+4. Dispatch actions to make necessary changes to the redux state
+P.S - In the image, it says "Opening Time" and "Closing Time", please consider it as "Opening Date" and "Closing Date" instead.
+Guidelines -
+1. You have to submit your tests in your repositories.
+2. The test is for 6 hours, starting at 11, until 5 in the evening, late submissions will not be evaluated, timestamp of the submission will be checked.
+3. Kindly write your own solutions, any two solutions found to be similar will fetch 0 marks to both the parties.
+4. The evaluation form is shared for you to ONLY READ, for you to have a look at the marks breakdown, DO NOT FILL that form, it is to be filled by your MENTOR, if a mentor complains that he/she hasn't filled your form and your entry exists, you will be disqualified.
+Evaluation form - https://forms.gle/GJq8E7u3qgkA6uMc9
+
+
+
+
+
